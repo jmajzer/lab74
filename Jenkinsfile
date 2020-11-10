@@ -4,7 +4,7 @@ pipeline {
    stages {
        stage('List') {
            steps {
-               sh 'ls -la .'
+               sh 'ls -la /lab74/'
            }
        }
    }
